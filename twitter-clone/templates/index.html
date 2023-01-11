@@ -7,8 +7,8 @@
 		<title>Home | Eng@ge!</title>
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="./bs/css/united.min.css">
-		<link rel="stylesheet" href="./css/styles.css">
+		<link rel="stylesheet" href="{{url_for('static',filename='./bs/css/united.min.css')}}">
+		<link rel="stylesheet" href="{{url_for('static',filename='./css/styles.css')}}">
 	</head>
 	<body>
 
@@ -39,7 +39,7 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li class=""><a href="./register.html">Sign Up</a></li>
+						<li class=""><a href="./register">Sign Up</a></li>
 						<li class=""><a href="#login" data-toggle="modal" data-keyboard="false">Login</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
@@ -98,8 +98,8 @@
 		</div>
 
 		<!-- jQuery -->
-		<script src="./bs/js/jquery.min.js"></script>
+		<script src="{{url_for('static',filename='./bs/js/jquery.min.js')}}"></script>
 		<!-- Bootstrap JavaScript -->
-		<script src="./bs/js/bootstrap.min.js"></script>
+		<script src="{{url_for('static',filename='./bs/js/bootstrap.min.js')}}"></script>
 	</body>
 </html>
